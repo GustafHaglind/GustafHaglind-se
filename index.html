@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gustaf Haglind</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Lobster|Fjalla+One" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div class="header">
+<div class="container-fluid">
+
+  <p class="name">Gustaf Haglind</p>
+  <p class="under-title">Musiker & Front-End Utvecklare</p>
+  <p class="social">
+    <a href="https://twitter.com/GustafHaglind" target="_new" title="Twitter"><img src="img/Twitter.png" alt="Twitter"></a>
+    <a href="https://github.com/GustafHaglind" target="_new" title="GitHub"><img src="img/Github.png" alt="GítHub"></a>
+    <a href="mailto:gustafhaglind@gmail.com" title="E-Mail"><img src="img/Mail.png" alt="E-Mail"></a>
+  </p>
+  <a href="#page"><span class="glyphicon glyphicon-menu-down animated rollIn"></span></a>
+  </div>
+  </div>
+
+  <div class="page" id="page" name="page">
+    <div class="container">
+    <h1>KORT BIO</h1>
+    <p>Jag heter Gustaf Haglind och är en rookie web designer samt programmerare, musiker och tekniknörd från Örebro. Jag har designat hemsidor och programmerat både på fritiden och i skolan i drygt två år.</p>
+
+    <h1>PROGRAMMERING / WEBBDESIGN</h1>
+    <p>MJag är kunnig i HTML5, CSS, C# samt ASP.NET Jag har även grundläggande kunskaper i Linux-miljö och Photoshop. Jag har gjort ett flertal hemsidor, bland annat <a href="http://royaltea.se" target="_new">mitt bands</a>.</p>
+
+    <h1>MUSIK</h1>
+    <p>Jag spelar elgitarr och har gjort i en stor del av mitt liv. Jag spelar i bandet <a href="http://royaltea.se" target="_new">Royaltea</a>. Vi spelar vad som genremässigt kan klassas somm klassisk hårdrock, men jag är öppen för fler besläktade genrer (funk, pop, rock, jazz mm.). Bor du i Örebro-området och är sugen på att spela? Hör av dig!</p>
+
+    <h1>KONTAKT</h1>
+    <p>Jag kan nås via min mail, <a href="mailto:gustafhaglind@gmail.com">GustafHaglind@Gmail.com</a> vid frågor, om du vill ha hemsida eller annat byggt, eller om du vill mig som musiker. Jag kan även nås på <a href="https://twitter.com/GustafHaglind" target="_new">Twitter</a>.</p>
+  </div>
+  </div>
+
+<footer>
+  Copyright Gustaf Haglind 2015
+</footer>
+ <!-- jQuery -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Smooth Scroll -->
+  <script>
+  $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+  </script>
+  <!-- Google Analytics -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51654174-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
